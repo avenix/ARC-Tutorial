@@ -1,7 +1,7 @@
 # Tutorial on Activity Recognition Chain
 
 This tutorial implementes the activity recognition chain in Matlab.
-![Activity Recognition Chain](https://github.com/avenix/ARC-Tutorial/images/ARC.png)
+![Activity Recognition Chain](images/ARC.png)
 
 ## Setup
 * install Matlab
