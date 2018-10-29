@@ -1,10 +1,10 @@
-# Tutorial on Activity Recognition Chain
+# Tutorial on Activity Recognition with Matlab
 
-This tutorial implementes the activity recognition chain in Matlab.
+This tutorial implements the Activity Recognition Chain in Matlab.
 ![Activity Recognition Chain](images/ARC.png)
 
 ## Application
-In this example application, we analyze the gait of a cow to detect lameness. We use a sample data set of a healthy cow and another data set from a lame cow. The code I provide segments the individual strides using a peak detector and trains a machine learning classifier to classify between normal and abnormal strides. 
+In this example application, we analyse the gait of a cow to detect lameness. We use a sample data set of a healthy cow and another data set from a lame cow. The code I provide segments the individual strides using a peak detector and trains a machine learning classifier to classify between normal and abnormal strides. 
 
 ## Setup
 * install Matlab
