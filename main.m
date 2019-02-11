@@ -25,6 +25,8 @@ abnormalDataTable = importer.importTable('data-abnormal.txt');
 abnormalData = table2array(abnormalDataTable);
 plotter.plotSignalBig(abnormalData(:,1),'Abnormal Cow Gait Data','Sample','Accelerometer-x');
 
+data = normalData;
+
 %Note: you can save the data in binary Matlab's .m format
 %for faster loading next time with the command:
 

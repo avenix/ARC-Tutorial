@@ -11,7 +11,14 @@ In this example application, we analyse the gait of a cow to detect lameness. We
 * `git clone git@github.com:avenix/ARC-Tutorial.git`
 * in Matlab, `addpath(genpath('./'))`
 * in Matlab, run `main.m`.
- 
+* this code uses the mRMR library for feature selection. If you get an error 'estpab function not found', then you need to:
+```
+cd libraries/mRMR_0.9/mi/
+mex -setup C++ 
+makeosmex
+```
+
+	
 *Note: if set a breakpoint and run the code line by line, then you can see the runtime values by hovering the mouse on top of the variables.*
 
 ## References
