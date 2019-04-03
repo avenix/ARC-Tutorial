@@ -29,7 +29,7 @@ makeosmex
     * https://dl.acm.org/citation.cfm?id=3267267
 
 ## About
-My name is Juan Haladjian. I developed this tutorial for my students at the Technical University of Munich. Feel free to contact me with questions or feature requests and to reuse and redistribute this software as you wish.
+My name is Juan Haladjian. I developed this tutorial for my students at the Technical University of Munich. Feel free to contact me with questions or feature requests and to reuse and redistribute this software as you wish. The project is under an MIT license. You are welcome to use the code in this repository, extend it and redistribute it for any purpose, as long as you give credit for it by copying the *LICENSE.txt file* to any copy of this software.
 
 Email: [haladjia@in.tum.de](mailto:haladjia@in.tum.de)
 
