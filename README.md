@@ -1,6 +1,6 @@
 # Tutorial on Activity Recognition with Matlab
 
-This tutorial implements the Activity Recognition Chain in Matlab.
+This tutorial teaches how to develop an activity recognition algorithm in Matlab. It provides several reusable abstractions to load process segment and process data using  signal processing and machine learning algorithms commonly used in wearable computing.
 ![Activity Recognition Chain](images/ARC.png)
 
 ## Application
@@ -22,11 +22,16 @@ makeosmex
 *Note: if set a breakpoint and run the code line by line, then you can see the runtime values by hovering the mouse on top of the variables.*
 
 ## References
-You will find more information on Andreas Bulling's article: https://dl.acm.org/citation.cfm?id=2499621
-and a few example applications:
-1. https://www.mdpi.com/2414-4088/2/2/27
-2. https://dl.acm.org/citation.cfm?id=3267267
+1. A toolkit to develop wearable device applications: https://github.com/avenix/WDK
+2. Andreas Bulling's tutorial on activity recognition: https://dl.acm.org/citation.cfm?id=2499621
+3. Wearable device applications:
+    * https://www.mdpi.com/2414-4088/2/2/27
+    * https://dl.acm.org/citation.cfm?id=3267267
 
-## Contact
-Juan Haladjian
-haladjia@in.tum.de
+## About
+My name is Juan Haladjian. I developed this tutorial for my students at the Technical University of Munich. Feel free to contact me with questions or feature requests and to reuse and redistribute this software as you wish.
+
+Email: [haladjia@in.tum.de](mailto:haladjia@in.tum.de)
+
+Website: [http://in.tum.de/~haladjia](http://in.tum.de/~haladjia)
+
