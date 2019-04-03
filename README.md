@@ -7,8 +7,7 @@ This tutorial teaches how to develop an activity recognition algorithm in Matlab
 In this example application, we analyse the gait of a cow to detect lameness. We use a sample data set of a healthy cow and another data set from a lame cow. The code I provide segments the individual strides using a peak detector and trains a machine learning classifier to classify between normal and abnormal strides. 
 
 ## Setup
-* install Matlab
-* `git clone git@github.com:avenix/ARC-Tutorial.git`
+* install Matlab (this tutorial was developed with version 2018b).
 * in Matlab, `addpath(genpath('./'))`
 * in Matlab, run `main.m`.
 * this code uses the mRMR library for feature selection. If you get an error 'estpab function not found', then you need to:
@@ -17,9 +16,8 @@ cd libraries/mRMR_0.9/mi/
 mex -setup C++ 
 makeosmex
 ```
-
 	
-*Note: if set a breakpoint and run the code line by line, then you can see the runtime values by hovering the mouse on top of the variables.*
+*Note: I suggest you to set a breakpoint, run the code line by line and see the runtime values by hovering the mouse on top of each variable.*
 
 ## References
 1. A toolkit to develop wearable device applications: https://github.com/avenix/WDK
@@ -34,4 +32,3 @@ My name is Juan Haladjian. I developed this tutorial for my students at the Tech
 Email: [haladjia@in.tum.de](mailto:haladjia@in.tum.de)
 
 Website: [http://in.tum.de/~haladjia](http://in.tum.de/~haladjia)
-
